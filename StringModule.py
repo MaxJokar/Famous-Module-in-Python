@@ -95,19 +95,28 @@ import pytz
 #Base on any country the momentum time of each country can be used
 
 #Time zone for America  is:
-print(datetime.now(pytz.timezone('US/Central')))
+# print(datetime.now(pytz.timezone('US/Central')))
+
+# to add  two dates  time hours  :
+date1=datetime(2022,2,18,13,25,25)
+timedelta1=timedelta(days=2,hours=5,minutes=20,seconds=10)
+date3=date1+timedelta1
+print(date1)
+print(date3)
 
 
+# To measure  exact YOu  Age  based on this prog:
 
-
-
-
-
-
-
-
-
-
+# date1=datetime(1979,11,8)
+# date2=datetime(2022,2,18)
+# daydiff=date2-date1
+# print(daydiff)
+# # to avoide negative number:
+# daydiff=abs(date1-date2)
+# mindiff=abs(date1-date2).total_seconds/60
+# hourdiff=abs(date1-date2).total_seconds()/(60*60)
+# daydiff=abs(date1-date2).total_seconds()/(60*60*24)
+# print(daydiff)
 
 
 
