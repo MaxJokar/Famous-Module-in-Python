@@ -1,6 +1,6 @@
-from re import template
-import string
-import datetime
+# from re import template
+# import string
+# import datetime
 
 
 # print(dir(string))
@@ -38,9 +38,89 @@ import datetime
 
 
 
-template1=string.Template("Answer is : $x > $y")
-str1=template1.substitute(x=22 ,y=18)
-print(str1)
+# template1=string.Template("Answer is : $x > $y")
+# str1=template1.substitute(x=22 ,y=18)
+# print(str1)
+
+#=======================================================================================
+from datetime import date, time, datetime,timedelta
+
+
+# print(date.today())
+# print(datetime.now())
+
+# date1=date(1998,2,2)
+# print(date1)
+
+
+# time1=time( 23,59,56) # we fan add hour  min  and  second too
+# print(time1)
+
+
+# datetime1=datetime(2012,4,1,14,20,20,233333)
+# year month  day   hour minute  seond microSec
+# print(datetime1)
+
+
+
+# datetime1=datetime(2012,4,1,14,20,20,233333)
+# print(datetime1.month)
+
+
+
+
+# print(datetime.now())
+# print(datetime.utcnow())
+
+
+# print(datetime.now().strftime("%Y / %m  %H:%M:%S"))
+
+
+
+# To design our  date time:
+
+# date3=datetime.strptime("8/18/2021","%m/%d/%Y")
+# print(date3.year)
+# print(date3.month)
+# print(date3.day)
+
+
+
+# date3=datetime.strptime("2022-16-2 20:12:25","%Y-%d-%m  %H:%M:%S")
+# print(date3.hour)
+
+
+#===============Library for  TimeZone=======================
+import pytz
+#Base on any country the momentum time of each country can be used
+
+#Time zone for America  is:
+print(datetime.now(pytz.timezone('US/Central')))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
