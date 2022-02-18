@@ -98,11 +98,11 @@ import pytz
 # print(datetime.now(pytz.timezone('US/Central')))
 
 # to add  two dates  time hours  :
-date1=datetime(2022,2,18,13,25,25)
-timedelta1=timedelta(days=2,hours=5,minutes=20,seconds=10)
-date3=date1+timedelta1
-print(date1)
-print(date3)
+# date1=datetime(2022,2,18,13,25,25)
+# timedelta1=timedelta(days=2,hours=5,minutes=20,seconds=10)
+# date3=date1+timedelta1
+# print(date1)
+# print(date3)
 
 
 # To measure  exact YOu  Age  based on this prog:
@@ -117,6 +117,32 @@ print(date3)
 # hourdiff=abs(date1-date2).total_seconds()/(60*60)
 # daydiff=abs(date1-date2).total_seconds()/(60*60*24)
 # print(daydiff)
+
+
+
+
+#============Operator ModuleS============
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
